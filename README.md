@@ -1,1 +1,1 @@
-# Web applicaton for cardealer ship
+# Web applicaton for car dealership
