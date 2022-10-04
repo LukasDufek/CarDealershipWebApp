@@ -43,9 +43,7 @@ router.delete('/:id', async (req, res) => {
 
 async function loadPostsCollection() {
     const client = await mongodb.MongoClient.connect(
-        //heslo je: 'frameworkvuejs'
-        //mongodb+srv://lukas_dufek:<password>@autobazarvue.7i1joxw.mongodb.net/?retryWrites=true&w=majority
-        'mongodb+srv://lukas_dufek:frameworkvuejs@autobazarvue.7i1joxw.mongodb.net/?retryWrites=true&w=majority',
+        'mongodb+srv://lukas_dufek:<password>@autobazarvue.7i1joxw.mongodb.net/?retryWrites=true&w=majority',
         {
             useNewUrlParser: true
         }
